@@ -26,13 +26,15 @@ train set과 test set은 세 개의 다른 캡쳐 장치에서 뽑은 live와 fa
 
 **아키텍쳐**
 
-1. data 전처리 - 이미지 폴더명, 파일명 고려해 renaming ![image](https://user-images.githubusercontent.com/74764725/122212604-00211c00-cee3-11eb-9fa8-a2aaea375bfc.png)
+1. data 전처리 - 이미지 폴더명, 파일명 고려해 renaming
+![image](https://user-images.githubusercontent.com/74764725/122212604-00211c00-cee3-11eb-9fa8-a2aaea375bfc.png)
 
-2. csv파일 만들기 ![image](https://user-images.githubusercontent.com/74764725/122212619-057e6680-cee3-11eb-8115-30a60c792f98.png)
-3. deepfake 코드로 학습
-4. adversarial input data 생성
-5. adversarial input data 추가 방식 찾기
-6. adversarial input data로 학습
+2. csv파일 만들기
+![image](https://user-images.githubusercontent.com/74764725/122212619-057e6680-cee3-11eb-8115-30a60c792f98.png)
+4. deepfake 코드로 학습
+5. adversarial input data 생성
+6. adversarial input data 추가 방식 찾기
+7. adversarial input data로 학습
 
 ![image](https://user-images.githubusercontent.com/74764725/122212717-20e97180-cee3-11eb-912a-4d47fe408767.png)
 ![image](https://user-images.githubusercontent.com/74764725/122212738-2777e900-cee3-11eb-8301-268c2b63b033.png)
